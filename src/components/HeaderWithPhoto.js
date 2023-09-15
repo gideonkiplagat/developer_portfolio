@@ -10,11 +10,9 @@ function HeaderWithPhoto() {
       <div className="header-content">
         <img
           src={imageUrl}
-          alt="Your Name"
+          alt="Gideon Kiplagat"
           className="profile-photo"
         />
-        <h1>Gideon Kiplagat`</h1>
-        {/* ... rest of the component */}
       </div>
     </header>
   );

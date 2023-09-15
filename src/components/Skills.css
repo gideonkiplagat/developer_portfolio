@@ -1,0 +1,24 @@
+/* Skills.css */
+.skills {
+    margin-top: 20px;
+  }
+  
+  .skills h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .skills-list {
+    display: flex; /* Use flexbox to create a horizontal layout */
+    flex-wrap: wrap; /* Wrap to the next line if the container is too narrow */
+    gap: 30px; /* Add some spacing between skills */
+  }
+  
+  .skill {
+    background-color: #3498db; /* Style each skill with background color */
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 30px;
+  }
+  
